@@ -2,25 +2,11 @@
 
 Agentic AI Scalable Video Classification with LoRA Fine-Tuning and LangGraph-NLP Based Video Summarization
 
-
 https://www.kaggle.com/code/rokoyim/human-activity-recognition
-
-
-
 
 Agentic AI Video Classification MCP Server
 Combines video processing with multi-step AI reasoning for intelligent video analysis
-
-
-
-                "sports", "nature", "urban", "indoor_activity",
-                "presentation", "tutorial", "vlog", "news",
-                "entertainment", "education", "documentary"
-
-
-
-
-Speed, accuracy, 
+"sports", "nature", "urban", "indoor_activity","presentation", "tutorial", "vlog", "news","entertainment", "education", "documentary,Speed, accuracy, 
 
 Video Classification Agent - Setup & Usage Guide
 Overview
@@ -108,52 +94,5 @@ Agent Reasoning
 The agent uses ReAct pattern (Reasoning + Acting):
 
 
-python
-# Agent thinks: "What do I need to do?"
-plan = agent_plan_analysis(video_path)
+"
 
-# Agent reasons about each step:
-# "First, I need frames to understand content..."
-# "Then, I need to detect what's in those frames..."
-# "Finally, I can classify based on evidence..."
-
-# Agent executes:
-results = agent_execute_plan(plan)
-
-# Agent learns:
-# Stores results in memory for future comparisons
-
-Usage Examples
-Example 1: Basic Video Classification
-
-
-User: "Analyze video.mp4 and tell me what category it is"
-
-Claude: Let me analyze this video step by step.
-
-[Agent creates plan]
-[Extracts 8 key frames using scene detection]
-[Analyzes each frame for objects and scenes]
-[Classifies based on evidence]
-
-Result:
- Video Classification Report
-━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Primary Category: Sports
-Confidence: 82.5%
-
-Key Findings:
-- Detected 12 people across analyzed frames
-- Dominant scene type: outdoor/natural lighting
-- Activity pattern: dynamic/motion detected
-- High scene variety (5 different scenes)
-
-Summary: This video is classified as 'sports' with 82.5% confidence. 
-The classification is highly confident. Multiple people and dynamic 
-movement patterns strongly indicate sporting activity.
-Example 2: Agentic Analysis with Reasoning
-
-
-User: "I have a video at /path/to/nature_doc.mp4. Can you figure out 
-       what it's about and explain your reasoning?"
