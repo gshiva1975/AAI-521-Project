@@ -4,7 +4,7 @@ Agentic AI Scalable Video Classification with LoRA Fine-Tuning and LangGraph-NLP
 
 https://www.kaggle.com/code/rokoyim/human-activity-recognition
 
-Agentic AI Video Classification MCP Server
+Agentic AI Video Classification
 Combines video processing with multi-step AI reasoning for intelligent video analysis
 "sports", "nature", "urban", "indoor_activity","presentation", "tutorial", "vlog", "news","entertainment", "education", "documentary,Speed, accuracy, 
 
