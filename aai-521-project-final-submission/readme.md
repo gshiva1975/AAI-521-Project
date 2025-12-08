@@ -11,7 +11,9 @@ Team03-FinalReport.pdf
 
 
 
-**TEAM03-ProjectCode.ipynb**
-Deliverable #3: Team Presentation Video
+TEAM03-ProjectCode.ipynb
+
+**Deliverable #3**: Team Presentation Video
+
 Team03-projectvideorecording .mp4
 
