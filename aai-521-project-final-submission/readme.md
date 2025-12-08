@@ -1,4 +1,4 @@
-##**AAI-521 Final Team Project Lead – Final Deliverable Inventory**
+**AAI-521 Final Team Project Lead – Final Deliverable Inventory**
 
 **Team/Team Members: Gangadhar Singh Shiva , Nagarajan Mahalingam , Akshobhya Rao BV**
 
